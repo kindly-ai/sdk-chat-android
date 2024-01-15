@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TextResourcesSDK</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            kindlysdk
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":kindlysdk:dokkaHtml/main">main</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="kindlysdk::no.kindly.chatsdk.chat.sdk.data.entity.settings/TextResourcesSDK///PointingToDeclaration//261161204">
+  <div class="breadcrumbs"><a href="../../../index.html">kindlysdk</a><span class="delimiter">/</span><a href="../index.html">no.kindly.chatsdk.chat.sdk.data.entity.settings</a><span class="delimiter">/</span><span class="current">TextResourcesSDK</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Text</span><wbr></wbr><span>Resources</span><wbr></wbr><span><span>SDK</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">TextResourcesSDK</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>placeholder<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>changeLanguageButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>startOverButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>downloadButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>downloadFormatText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>deleteButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>deleteText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>chatDeletedHeader<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>chatDeletedText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>changeLanguageText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cancelChatText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cancelChatButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>confirmActionButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>chatSettings<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-936270898%2FConstructors%2F261161204" anchor-label="TextResourcesSDK" id="-936270898%2FConstructors%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-text-resources-s-d-k.html"><span>Text</span><wbr></wbr><span>Resources</span><wbr></wbr><span><span>SDK</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-936270898%2FConstructors%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">placeholder<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">changeLanguageButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">startOverButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">downloadButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">downloadFormatText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">deleteButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">deleteText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">chatDeletedHeader<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">chatDeletedText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">changeLanguageText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">cancelChatText<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">cancelChatButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">confirmActionButton<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">chatSettings<span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-448319149%2FProperties%2F261161204" anchor-label="cancelChatButton" id="-448319149%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cancel-chat-button.html"><span>cancel</span><wbr></wbr><span>Chat</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-448319149%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;cancel_chat_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="cancel-chat-button.html">cancelChatButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="68072888%2FProperties%2F261161204" anchor-label="cancelChatText" id="68072888%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cancel-chat-text.html"><span>cancel</span><wbr></wbr><span>Chat</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="68072888%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;cancel_chat_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="cancel-chat-text.html">cancelChatText</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-970458275%2FProperties%2F261161204" anchor-label="changeLanguageButton" id="-970458275%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="change-language-button.html"><span>change</span><wbr></wbr><span>Language</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-970458275%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;change_language_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="change-language-button.html">changeLanguageButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1439595074%2FProperties%2F261161204" anchor-label="changeLanguageText" id="1439595074%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="change-language-text.html"><span>change</span><wbr></wbr><span>Language</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1439595074%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;change_language_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="change-language-text.html">changeLanguageText</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1404690261%2FProperties%2F261161204" anchor-label="chatDeletedHeader" id="1404690261%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="chat-deleted-header.html"><span>chat</span><wbr></wbr><span>Deleted</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1404690261%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;chat_deleted_header&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="chat-deleted-header.html">chatDeletedHeader</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1906331125%2FProperties%2F261161204" anchor-label="chatDeletedText" id="1906331125%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="chat-deleted-text.html"><span>chat</span><wbr></wbr><span>Deleted</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1906331125%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;chat_deleted_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="chat-deleted-text.html">chatDeletedText</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1077289308%2FProperties%2F261161204" anchor-label="chatSettings" id="1077289308%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="chat-settings.html"><span>chat</span><wbr></wbr><span><span>Settings</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1077289308%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;chat_settings_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="chat-settings.html">chatSettings</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1372799301%2FProperties%2F261161204" anchor-label="confirmActionButton" id="-1372799301%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="confirm-action-button.html"><span>confirm</span><wbr></wbr><span>Action</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1372799301%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;confirm_action_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="confirm-action-button.html">confirmActionButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="506968698%2FProperties%2F261161204" anchor-label="deleteButton" id="506968698%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-button.html"><span>delete</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="506968698%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;delete_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="delete-button.html">deleteButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1039311713%2FProperties%2F261161204" anchor-label="deleteText" id="-1039311713%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-text.html"><span>delete</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1039311713%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;delete_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="delete-text.html">deleteText</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1530098307%2FProperties%2F261161204" anchor-label="downloadButton" id="-1530098307%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="download-button.html"><span>download</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1530098307%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;download_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="download-button.html">downloadButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2065803733%2FProperties%2F261161204" anchor-label="downloadFormatText" id="-2065803733%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="download-format-text.html"><span>download</span><wbr></wbr><span>Format</span><wbr></wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2065803733%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;download_format_text&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="download-format-text.html">downloadFormatText</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-852595312%2FProperties%2F261161204" anchor-label="placeholder" id="-852595312%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="placeholder.html"><span><span>placeholder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-852595312%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;placeholder&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="placeholder.html">placeholder</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-683604357%2FProperties%2F261161204" anchor-label="startOverButton" id="-683604357%2FProperties%2F261161204" data-filterable-set=":kindlysdk:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":kindlysdk:dokkaHtml/main" data-filterable-set=":kindlysdk:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="start-over-button.html"><span>start</span><wbr></wbr><span>Over</span><wbr></wbr><span><span>Button</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-683604357%2FProperties%2F261161204"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":kindlysdk:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="com.google.gson.annotations/SerializedName///PointingToDeclaration/"><span class="token annotation builtin">SerializedName</span></span><span class="token punctuation">(</span><span>value<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;start_over_button&quot;</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">val </span><a href="start-over-button.html">startOverButton</a><span class="token operator">: </span><a href="../-text-placeholder-s-d-k/index.html">TextPlaceholderSDK</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
