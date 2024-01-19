@@ -82,5 +82,5 @@ If you encounter any issues or require further assistance, feel free to create a
 For more information, please refer to the following resources:
 
 - [Getting Started](https://github.com/kindly-ai/sdk-chat-android/wiki)
-- [Documentation](https://kindly-ai.github.io/sdk-chat-android/)
+- [📚 Documentation](https://kindly-ai.github.io/sdk-chat-android/)
 - [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-android)
