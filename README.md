@@ -8,6 +8,8 @@ Follow these steps to install the Kindly SDK into your Android project.
 
 ### Step 1: Add the JitPack repository to your build file
 
+#### Groovy
+
 Add the following lines to your root `build.gradle` file:
 
 ```gradle
@@ -15,6 +17,17 @@ allprojects {
     repositories {
         ...
         maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+#### Kotlin DSL
+
+```
+pluginManagement {
+    repositories {
+        ...
+        maven(url = "https://jitpack.io")
     }
 }
 ```
