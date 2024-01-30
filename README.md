@@ -12,7 +12,7 @@ Follow these steps to install the Kindly SDK into your Android project.
 
 Add the following lines to your root `build.gradle` file:
 
-```gradle
+```groovy
 allprojects {
     repositories {
         ...
@@ -23,7 +23,7 @@ allprojects {
 
 #### Kotlin DSL
 
-```
+```kotlin
 pluginManagement {
     repositories {
         ...
@@ -31,6 +31,16 @@ pluginManagement {
     }
 }
 ```
+
+### Step 2: Add the dependency
+
+```groovy
+dependencies {
+		implementation 'com.github.kindly-ai:sdk-chat-android:TAG'
+}
+```
+
+Find the latest version [here](https://jitpack.io/#kindly-ai/sdk-chat-android)
 
 ### Step 3: Initialize the SDK
 
