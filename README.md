@@ -36,7 +36,7 @@ pluginManagement {
 
 ```groovy
 dependencies {
-		implementation 'com.github.kindly-ai:sdk-chat-android:TAG'
+	implementation 'com.github.kindly-ai:sdk-chat-android:TAG'
 }
 ```
 
