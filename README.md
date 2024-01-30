@@ -16,7 +16,7 @@ Add the following lines to your root `build.gradle` file:
 allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }
+        maven { url "https://jitpack.io" }
     }
 }
 ```
@@ -34,9 +34,19 @@ pluginManagement {
 
 ### Step 2: Add the dependency
 
+#### Groovy
+
 ```groovy
 dependencies {
-	implementation 'com.github.kindly-ai:sdk-chat-android:TAG'
+	implementation "com.github.kindly-ai:sdk-chat-android:TAG"
+}
+```
+
+#### Kotlin DSL
+
+```kotlin
+dependencies {
+	implementation("com.github.kindly-ai:sdk-chat-android:TAG")
 }
 ```
 
