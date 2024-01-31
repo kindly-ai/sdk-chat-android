@@ -24,7 +24,7 @@ allprojects {
 #### Kotlin DSL
 
 ```kotlin
-pluginManagement {
+dependencyResolutionManagement {
     repositories {
         ...
         maven(url = "https://jitpack.io")
@@ -99,7 +99,7 @@ fun MyButton() {
     val context = LocalContext.current
     Button(onClick = {
         sdk.launchChat(context = context)
-                     },
+           },
         ) {
         Text(text = "Click Here")
     }
