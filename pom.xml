@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>0.5.64</version>
+  <version>0.5.65</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
   <description>Kindly pom file</description>
@@ -21,6 +21,16 @@
     <developerConnection>scm:git@github.com:kindly-ai/chat-android.git</developerConnection>
     <url>git@github.com:kindly-ai/chat-android.git</url>
   </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.5.0</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
