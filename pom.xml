@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>0.5.53</version>
+  <version>0.5.64</version>
   <packaging>aar</packaging>
+  <name>Kindly SDK</name>
   <description>Kindly pom file</description>
   <url>https://github.com/kindly-ai/chat-android.git</url>
   <inceptionYear>2023</inceptionYear>
   <developers>
     <developer>
-      <id>kindly-ai</id>
-      <name>Kindly</name>
-      <email/>
+      <id>AlexyIbrahim</id>
+      <name>Alexy Ibrahim</name>
+      <email>alexy.ib@gmail.com</email>
     </developer>
   </developers>
   <scm>
@@ -20,16 +21,6 @@
     <developerConnection>scm:git@github.com:kindly-ai/chat-android.git</developerConnection>
     <url>git@github.com:kindly-ai/chat-android.git</url>
   </scm>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>com.simpligility.maven.plugins</groupId>
-        <artifactId>android-maven-plugin</artifactId>
-        <version>4.5.0</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -39,7 +30,6 @@
       <scope>test</scope>
       <optional>true</optional>
     </dependency>
-    <!-- Added dependencies -->
     <dependency>
       <groupId>androidx.browser</groupId>
       <artifactId>browser</artifactId>
@@ -63,17 +53,17 @@
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui</artifactId>
-      <version>1.5.4</version>
+      <version>1.6.0</version>
     </dependency>
     <dependency>
       <groupId>androidx.compose.material</groupId>
       <artifactId>material</artifactId>
-      <version>1.5.4</version>
+      <version>1.6.0</version>
     </dependency>
     <dependency>
       <groupId>androidx.compose.ui</groupId>
       <artifactId>ui-tooling-preview</artifactId>
-      <version>1.5.4</version>
+      <version>1.6.0</version>
     </dependency>
     <dependency>
       <groupId>androidx.navigation</groupId>
@@ -103,12 +93,12 @@
     <dependency>
       <groupId>io.insert-koin</groupId>
       <artifactId>koin-androidx-compose</artifactId>
-      <version>3.4.2</version>
+      <version>3.5.3</version>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime-ktx</artifactId>
-      <version>2.6.2</version>
+      <version>2.7.0</version>
     </dependency>
     <dependency>
       <groupId>com.auth0.android</groupId>
@@ -169,6 +159,11 @@
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.10</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jakewharton.threetenabp</groupId>
+      <artifactId>threetenabp</artifactId>
+      <version>1.4.6</version>
     </dependency>
   </dependencies>
 </project>
