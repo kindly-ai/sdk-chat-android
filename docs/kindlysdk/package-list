@@ -565,7 +565,7 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.domain////PointingToDeclaration/kind
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager.Companion///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/-companion/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager.Companion/ATTACHMENT/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/-companion/-a-t-t-a-c-h-m-e-n-t.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/index.html
-$dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/ChatManager/#org.koin.core.Koin#kotlinx.coroutines.CoroutineDispatcher#no.kindly.chatsdk.chat.data.FileStore/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/-chat-manager.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/ChatManager/#org.koin.core.Koin#kotlinx.coroutines.CoroutineDispatcher#no.kindly.chatsdk.chat.data.FileStore#no.kindly.chatsdk.chat.KindlySDKConfig/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/-chat-manager.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/attachmentCreate/#no.kindly.chatsdk.chat.sdk.data.entity.attachment.request.ListAttachments#okhttp3.MultipartBody.Part#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/attachment-create.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/authenticate/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/authenticate.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/authenticateJWTToken/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/authenticate-j-w-t-token.html
@@ -577,7 +577,6 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/downloadChat/#no.k
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/downloadFile/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/download-file.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/getKoin/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/get-koin.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/getSettings/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/get-settings.html
-$dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/initKindly/#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/init-kindly.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/initialize/#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/initialize.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/isPusherDisconnected/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/is-pusher-disconnected.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.domain/ChatManager/kindlyConnectionState/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.domain/-chat-manager/kindly-connection-state.html
