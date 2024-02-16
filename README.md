@@ -75,7 +75,7 @@ class App: Application() {
 
 After installing the SDK, you can now use it in your Android application. 
 
-To launch the chat, call `sdk.launchChat(context = context)` in your activity or fragment:
+To launch the chat, call `KindlySDK.launchChat(context = context)` in your activity or fragment:
 
 ```kotlin
 class MainActivity : ComponentActivity() {
