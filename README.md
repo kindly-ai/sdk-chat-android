@@ -24,7 +24,7 @@ allprojects {
 #### Kotlin DSL
 
 ```kotlin
-dependencyResolutionManagement {
+pluginManagement {
     repositories {
         ...
         maven(url = "https://jitpack.io")
@@ -60,16 +60,13 @@ In your Application class, initialize the SDK as follows:
 class App: Application() {
     override fun onCreate() {
         super.onCreate()
-
-        sdk = ChatKindlySDK(
+				
+      	// 🌿 Initialize the SDK
+        KindlySDK.start(
             application = this,
             chatBotKey = "BOT_KEY",
             getAuthToken = null
         )
-    }
-
-    companion object {
-        lateinit var sdk: ChatKindlySDK
     }
 }
 ```
@@ -98,8 +95,9 @@ class MainActivity : ComponentActivity() {
 fun MyButton() {
     val context = LocalContext.current
     Button(onClick = {
-        sdk.launchChat(context = context)
-           },
+      	// 🌿 Display the SDK screen
+        KindlySDK.launchChat(context = context)
+                    },
         ) {
         Text(text = "Click Here")
     }
