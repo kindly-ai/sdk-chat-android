@@ -609,6 +609,7 @@ $dokka.location:no.kindly.chatsdk.chat/KindlySDK///PointingToDeclaration/kindly
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/index.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig/KindlySDKConfig/#org.koin.core.Koin/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/-kindly-s-d-k-config.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig/getKoin/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/get-koin.html
+$dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig/test/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/test.html
 $dokka.location:no.kindly.chatsdk.chat/ServerEnvironment.DEV///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat/-server-environment/-d-e-v/index.html
 $dokka.location:no.kindly.chatsdk.chat/ServerEnvironment.PRODUCTION///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat/-server-environment/-p-r-o-d-u-c-t-i-o-n/index.html
 $dokka.location:no.kindly.chatsdk.chat/ServerEnvironment///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-server-environment/index.html
