@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>0.5.98</version>
+  <version>0.5.99</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
   <description>Kindly pom file</description>
   <url>https://github.com/kindly-ai/chat-android.git</url>
-  <inceptionYear>2024</inceptionYear>
+  <inceptionYear>2023</inceptionYear>
   <developers>
     <developer>
       <id>AlexyIbrahim</id>
