@@ -1,5 +1,21 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:no.kindly.chatsdk.chat.common.video////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform.MP4///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/-m-p4/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform.UNKNOWN///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/-u-n-k-n-o-w-n/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform.VIMEO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/-v-i-m-e-o/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform.YOUTUBE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/-y-o-u-t-u-b-e/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform/entries/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/entries.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform/valueOf/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/value-of.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoPlatform/values/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-platform/values.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/index.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/checkVideoPlatform/#java.net.URL/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/check-video-platform.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/getEmbedCode/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/get-embed-code.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/isOEmbedSupportedVideo/#java.net.URL/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/is-o-embed-supported-video.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/isSupportedVideo/#java.net.URL/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/is-supported-video.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/oEmbedURL/#java.net.URL/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/o-embed-u-r-l.html
+$dokka.location:no.kindly.chatsdk.chat.common.video/VideoUtils/oEmbedURL/#no.kindly.chatsdk.chat.common.video.VideoPlatform/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common.video/-video-utils/o-embed-u-r-l.html
 $dokka.location:no.kindly.chatsdk.chat.common////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common/index.html
 $dokka.location:no.kindly.chatsdk.chat.common//colorList/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common/color-list.html
 $dokka.location:no.kindly.chatsdk.chat.common//emailTo/android.content.Context#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.common/email-to.html
@@ -26,6 +42,10 @@ $dokka.location:no.kindly.chatsdk.chat.core/MyIsolatedKoinContext///PointingToDe
 $dokka.location:no.kindly.chatsdk.chat.core/MyIsolatedKoinContext/koin/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-my-isolated-koin-context/koin.html
 $dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/index.html
 $dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion/getScreenSize/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/get-screen-size.html
+$dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion/isAppDebuggable/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/is-app-debuggable.html
+$dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion/isAppInReleaseMode/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/is-app-in-release-mode.html
+$dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion/isDebuggerConnected/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/is-debugger-connected.html
+$dokka.location:no.kindly.chatsdk.chat.core/Utils.Companion/isValidURL/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-companion/is-valid-u-r-l.html
 $dokka.location:no.kindly.chatsdk.chat.core/Utils///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/index.html
 $dokka.location:no.kindly.chatsdk.chat.core/Utils/Utils/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.core/-utils/-utils.html
 $dokka.location:no.kindly.chatsdk.chat.data////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.data/index.html
@@ -37,6 +57,10 @@ $dokka.location:no.kindly.chatsdk.chat.data/FileStore/getMime/#android.net.Uri/P
 $dokka.location:no.kindly.chatsdk.chat.data/FileStore/getNameFile/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.data/-file-store/get-name-file.html
 $dokka.location:no.kindly.chatsdk.chat.data/FileStore/sizeInKb/#java.io.File/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.data/-file-store/size-in-kb.html
 $dokka.location:no.kindly.chatsdk.chat.data/FileStore/writeTextToFile/#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.data/-file-store/write-text-to-file.html
+$dokka.location:no.kindly.chatsdk.chat.domain.entites////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.domain.entites/index.html
+$dokka.location:no.kindly.chatsdk.chat.domain.entites/TriggerDialogResponse///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.domain.entites/-trigger-dialog-response/index.html
+$dokka.location:no.kindly.chatsdk.chat.domain.entites/TriggerDialogResponse/TriggerDialogResponse/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.domain.entites/-trigger-dialog-response/-trigger-dialog-response.html
+$dokka.location:no.kindly.chatsdk.chat.domain.entites/TriggerDialogResponse/chatMessageId/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.domain.entites/-trigger-dialog-response/chat-message-id.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/index.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//AgentShowHide/#kotlin.String#kotlin.Int/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-agent-show-hide.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//ComposeKindlyButton/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-compose-kindly-button.html
@@ -44,6 +68,7 @@ $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//ConstraintA
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//ConstraintLayoutContent/#kotlin.String#kotlin.Boolean/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-constraint-layout-content.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//KindlyButton/#androidx.compose.ui.Modifier#kotlin.Int?#kotlin.String#kotlin.Function0[kotlin.Unit]#androidx.compose.ui.graphics.Color#kotlin.Boolean#androidx.compose.material.ButtonColors/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-kindly-button.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//MessageAgent/#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-message-agent.html
+$dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//WebScreen/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/-web-screen.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat.components//showHtml/#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat.components/show-html.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat/index.html
 $dokka.location:no.kindly.chatsdk.chat.presentation.chat/ConversationUiState.ErrorConnectionState///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.presentation.chat/-conversation-ui-state/-error-connection-state/index.html
@@ -106,14 +131,16 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.common.delegate/StringPreference/setV
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/authenticate/#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/authenticate.html
-$dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/connect/#kotlin.String#kotlin.String#kotlin.String?#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.ConnectModel?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/connect.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/connect/#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?#kotlin.Boolean?#kotlin.Boolean?#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.ConnectModel?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/connect.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/deleteChatLogs/#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/delete-chat-logs.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/downloadConversation/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/download-conversation.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/downloadFile/#kotlin.String?#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/download-file.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/oEmbedRequest/#kotlin.String#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/o-embed-request.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/postAttachmentCreate/#kotlin.String#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.attachment.request.ListAttachments#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/post-attachment-create.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/postButtonClick/#kotlin.String#kotlin.String#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.ButtonAction/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/post-button-click.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/postMessage/#kotlin.String#kotlin.String#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.MessageSDK/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/post-message.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/postUploadsComplete/#kotlin.String?#kotlin.String#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.attachment.response.CompleteAttachment/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/post-uploads-complete.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/triggerDialog/#kotlin.String#kotlin.String#kotlin.String#no.kindly.chatsdk.chat.sdk.data.entity.TriggerDialogueRequest/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/Api/uploadFile/#kotlin.String?#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#okhttp3.MultipartBody.Part/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-api/upload-file.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/AuthGeneratorActor///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-auth-generator-actor/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.api/AuthGeneratorActor/authenticateWithAuthToken/#kotlin.Boolean?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.api/-auth-generator-actor/authenticate-with-auth-token.html
@@ -151,14 +178,26 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/AuthState/values/#/Pointing
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/clear/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/clear.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/context/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/context.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/hasGreetingParams/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/has-greeting-params.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/includeGreetings/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/include-greetings.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/kindlyInterface/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/kindly-interface.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/koin/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/koin.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/mainActivity/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/main-activity.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/resetGreetings/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/reset-greetings.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/shouldGreet/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/should-greet.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars.Companion/triggerDialogueSlug/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-companion/trigger-dialogue-slug.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/LifecycleVars/LifecycleVars/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-lifecycle-vars/-lifecycle-vars.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/Navigation///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-navigation/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/Navigation/context/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-navigation/context.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.core/Navigation/displayChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-navigation/display-chat.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/Navigation/displayWebView/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-navigation/display-web-view.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/Navigation/setup/#androidx.navigation.NavHostController/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-navigation/setup.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/PromiseException.NoResult///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-promise-exception/-no-result/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/PromiseException.PromiseFailed///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-promise-exception/-promise-failed/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/PromiseException.TimedOut///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-promise-exception/-timed-out/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/PromiseException.ValidationFailure///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-promise-exception/-validation-failure/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.core/PromiseException///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.core/-promise-exception/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity.attachment.data////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity.attachment.data/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity.attachment.data/FileAttachment///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity.attachment.data/-file-attachment/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity.attachment.data/FileAttachment/FileAttachment/#kotlin.String#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity.attachment.data/-file-attachment/-file-attachment.html
@@ -338,7 +377,7 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectModel///PointingTo
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectModel/ConnectModel/#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connect-model/-connect-model.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectModel/context/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connect-model/context.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/index.html
-$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/ConnectionResponse/#kotlin.String?#kotlin.String?#kotlin.String#kotlin.String#kotlin.String#kotlin.Int#kotlin.Boolean?#no.kindly.chatsdk.chat.sdk.data.entity.BotPlaceholder?#kotlin.Boolean?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/-connection-response.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/ConnectionResponse/#kotlin.String?#kotlin.String?#kotlin.String#kotlin.String#kotlin.String#kotlin.Int#kotlin.Boolean?#no.kindly.chatsdk.chat.sdk.data.entity.BotPlaceholder?#kotlin.Boolean?#no.kindly.chatsdk.chat.sdk.data.entity.MessageData?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/-connection-response.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/allGreetingsHideInput/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/all-greetings-hide-input.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/botAvatar/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/bot-avatar.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/botName/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/bot-name.html
@@ -347,6 +386,8 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/botTyp
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/botTypingIndicator/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/bot-typing-indicator.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/chatId/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/chat-id.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/created/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/created.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/greeting/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/greeting.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/hasGreeting/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/has-greeting.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectionResponse/token/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connection-response/token.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectiondData///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connectiond-data/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/ConnectiondData/ConnectiondData/#kotlin.String?#kotlin.String?#kotlin.String#kotlin.String#kotlin.String?#kotlin.Int#kotlin.Boolean?#kotlin.Boolean?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-connectiond-data/-connectiond-data.html
@@ -475,6 +516,13 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/MessageSDK/urlTrigger/#/P
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/MessageSDK/v/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-message-s-d-k/v.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/MessageSDK/videoSource/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-message-s-d-k/video-source.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/MessageSDK/webhookUrl/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-message-s-d-k/webhook-url.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/OEmbedData/#kotlin.Int?#kotlin.Int?#kotlin.String#kotlin.String?#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/-o-embed-data.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/height/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/height.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/html/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/html.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/providerUrl/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/provider-url.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/title/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/title.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/OEmbedData/width/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-o-embed-data/width.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/PostMessageResponse///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-post-message-response/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/PostMessageResponse/PostMessageResponse/#kotlin.String?#kotlin.String?#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-post-message-response/-post-message-response.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/PostMessageResponse/chatId/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-post-message-response/chat-id.html
@@ -485,6 +533,9 @@ $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TakeoverData/TakeoverData
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TakeoverData/avatar/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-takeover-data/avatar.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TakeoverData/name/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-takeover-data/name.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TakeoverData/takeOver/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-takeover-data/take-over.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TriggerDialogueRequest///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-trigger-dialogue-request/index.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TriggerDialogueRequest/TriggerDialogueRequest/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-trigger-dialogue-request/-trigger-dialogue-request.html
+$dokka.location:no.kindly.chatsdk.chat.sdk.data.entity/TriggerDialogueRequest/exchangeId/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.entity/-trigger-dialogue-request/exchange-id.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.mapper////PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.mapper/index.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.mapper//toButtonData/#no.kindly.chatsdk.chat.sdk.data.store.entity.ButtonSDK/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.mapper/to-button-data.html
 $dokka.location:no.kindly.chatsdk.chat.sdk.data.mapper//toFileAttachment/no.kindly.chatsdk.chat.sdk.data.entity.attachment.response.AttachmentResponse#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat.sdk.data.mapper/to-file-attachment.html
@@ -508,13 +559,15 @@ $dokka.location:no.kindly.chatsdk.chat/AuthTokenCallback///PointingToDeclaration
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/index.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/callHandover/#no.kindly.chatsdk.chat.common.CallbackHandover/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/call-handover.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/clearNewContext/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/clear-new-context.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/clearTriggerDialog/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/clear-trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/close/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/close.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/endChat/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/end-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/interface/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/interface.html
-$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/launchChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/launch-chat.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/launchChat/#android.content.Context#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/launch-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/setNewContext/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/set-new-context.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/shared/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/shared.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/start/#android.app.Application#kotlin.String#kotlin.String#[Error type: Type for error type constructor (AuthTokenCallback)]?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/start.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/triggerDialog/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/index.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/ChatKindlySDK/#android.app.Application#kotlin.String#kotlin.String#[Error type: Type for error type constructor (AuthTokenCallback)]?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-chat-kindly-s-d-k.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/callHandover/#no.kindly.chatsdk.chat.common.CallbackHandover/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/call-handover.html
@@ -522,9 +575,10 @@ $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/clearNewContext/#/PointingT
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/close/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/close.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/endChat/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/end-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/handoverCallback/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/handover-callback.html
-$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/launchChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/launch-chat.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/launchChat/#android.content.Context#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/launch-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/onKindlyInterfaceSet/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/on-kindly-interface-set.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/setNewContext/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/set-new-context.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/triggerDialog/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDK///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k/index.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/index.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig/KindlySDKConfig/#org.koin.core.Koin/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/-kindly-s-d-k-config.html
@@ -538,8 +592,10 @@ $dokka.location:no.kindly.chatsdk.chat/ServerEnvironment/valueOf/#kotlin.String/
 $dokka.location:no.kindly.chatsdk.chat/ServerEnvironment/values/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-server-environment/values.html
 no.kindly.chatsdk.chat
 no.kindly.chatsdk.chat.common
+no.kindly.chatsdk.chat.common.video
 no.kindly.chatsdk.chat.core
 no.kindly.chatsdk.chat.data
+no.kindly.chatsdk.chat.domain.entites
 no.kindly.chatsdk.chat.presentation.chat
 no.kindly.chatsdk.chat.presentation.chat.components
 no.kindly.chatsdk.chat.presentation.language
