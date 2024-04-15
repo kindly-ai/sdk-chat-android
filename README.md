@@ -97,8 +97,7 @@ fun MyButton() {
     Button(onClick = {
       	// 🌿 Display the SDK screen
         KindlySDK.launchChat(context = context)
-                    },
-        ) {
+   	},) {
         Text(text = "Click Here")
     }
 }
