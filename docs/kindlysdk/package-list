@@ -561,24 +561,26 @@ $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/callHandover/#no.
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/clearNewContext/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/clear-new-context.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/clearTriggerDialog/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/clear-trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/close/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/close.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/displayChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/display-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/endChat/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/end-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/interface/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/interface.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/launchChat/#android.content.Context#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/launch-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/setNewContext/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/set-new-context.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/shared/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/shared.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/start/#android.app.Application#kotlin.String#kotlin.String#[Error type: Type for error type constructor (AuthTokenCallback)]?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/start.html
-$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/triggerDialog/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/trigger-dialog.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK.Companion/triggerDialog/#kotlin.String#kotlin.Boolean?#android.content.Context?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-companion/trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/index.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/ChatKindlySDK/#android.app.Application#kotlin.String#kotlin.String#[Error type: Type for error type constructor (AuthTokenCallback)]?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/-chat-kindly-s-d-k.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/callHandover/#no.kindly.chatsdk.chat.common.CallbackHandover/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/call-handover.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/clearNewContext/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/clear-new-context.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/close/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/close.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/displayChat/#android.content.Context/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/display-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/endChat/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/end-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/handoverCallback/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/handover-callback.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/launchChat/#android.content.Context#kotlin.String?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/launch-chat.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/onKindlyInterfaceSet/#/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/on-kindly-interface-set.html
 $dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/setNewContext/#kotlin.collections.Map[kotlin.String,kotlin.String]/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/set-new-context.html
-$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/triggerDialog/#kotlin.String/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/trigger-dialog.html
+$dokka.location:no.kindly.chatsdk.chat/ChatKindlySDK/triggerDialog/#kotlin.String#kotlin.Boolean?#android.content.Context?/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-chat-kindly-s-d-k/trigger-dialog.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDK///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k/index.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig///PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/index.html
 $dokka.location:no.kindly.chatsdk.chat/KindlySDKConfig/KindlySDKConfig/#org.koin.core.Koin/PointingToDeclaration/kindlysdk/no.kindly.chatsdk.chat/-kindly-s-d-k-config/-kindly-s-d-k-config.html
