@@ -65,7 +65,7 @@ class App: Application() {
         KindlySDK.start(
             application = this,
             botKey = "BOT_KEY",
-          	languageCode = "en",
+            languageCode = "en",
         )
     }
 }
