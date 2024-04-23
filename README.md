@@ -64,8 +64,8 @@ class App: Application() {
       	// 🌿 Initialize the SDK
         KindlySDK.start(
             application = this,
-            chatBotKey = "BOT_KEY",
-            getAuthToken = null
+            botKey = "BOT_KEY",
+          	languageCode = "en",
         )
     }
 }
@@ -97,7 +97,7 @@ fun MyButton() {
     Button(onClick = {
       	// 🌿 Display the SDK screen
         KindlySDK.launchChat(context = context)
-   	},) {
+    },) {
         Text(text = "Click Here")
     }
 }
