@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>0.6.24</version>
+  <version>0.6.25</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
   <description>Kindly pom file</description>
@@ -202,13 +202,8 @@
     </dependency>
     <dependency>
       <groupId>com.google.firebase</groupId>
-      <artifactId>firebase-bom</artifactId>
-      <version>32.8.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.firebase</groupId>
       <artifactId>firebase-messaging-ktx</artifactId>
-      <version/>
+      <version>24.0.3</version>
     </dependency>
     <dependency>
       <groupId>io.sentry</groupId>
