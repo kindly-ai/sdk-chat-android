@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>0.6.53</version>
+  <version>0.6.54</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
   <description>Kindly pom file</description>
