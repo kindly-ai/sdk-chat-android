@@ -12,29 +12,31 @@
         <meta name="author" content="Kindly">
       
       
-        <link rel="canonical" href="https://kindly-ai.github.io/sdk-chat-android/">
+        <link rel="canonical" href="https://kindly-ai.github.io/sdk-chat-android/guides/url-schemes/">
       
       
+        <link rel="prev" href="../custom-theming/">
       
-        <link rel="next" href="guides/initialization/">
+      
+        <link rel="next" href="../link-interception/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Kindly Android SDK</title>
+        <title>URL Schemes - Kindly Android SDK</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kindly-android-sdk" class="md-skip">
+        <a href="#url-schemes" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +98,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Kindly Android SDK" class="md-header__button md-logo" aria-label="Kindly Android SDK" data-md-component="logo">
+    <a href="../.." title="Kindly Android SDK" class="md-header__button md-logo" aria-label="Kindly Android SDK" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -116,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              URL Schemes
             
           </span>
         </div>
@@ -234,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Kindly Android SDK" class="md-nav__button md-logo" aria-label="Kindly Android SDK" data-md-component="logo">
+    <a href="../.." title="Kindly Android SDK" class="md-nav__button md-logo" aria-label="Kindly Android SDK" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -261,37 +263,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -307,98 +282,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-add-the-jitpack-repository" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 1: Add the JitPack repository
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-add-the-dependency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 2: Add the dependency
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quick Start
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Documentation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        API Reference
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -470,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/initialization/" class="md-nav__link">
+      <a href="../initialization/" class="md-nav__link">
         
   
   
@@ -498,7 +381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/config/" class="md-nav__link">
+      <a href="../config/" class="md-nav__link">
         
   
   
@@ -597,7 +480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/launch-chat/" class="md-nav__link">
+      <a href="../launch-chat/" class="md-nav__link">
         
   
   
@@ -625,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/close-chat/" class="md-nav__link">
+      <a href="../close-chat/" class="md-nav__link">
         
   
   
@@ -653,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/end-chat/" class="md-nav__link">
+      <a href="../end-chat/" class="md-nav__link">
         
   
   
@@ -681,7 +564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/kill-sdk/" class="md-nav__link">
+      <a href="../kill-sdk/" class="md-nav__link">
         
   
   
@@ -782,7 +665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/events/" class="md-nav__link">
+      <a href="../events/" class="md-nav__link">
         
   
   
@@ -810,7 +693,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/authentication/" class="md-nav__link">
+      <a href="../authentication/" class="md-nav__link">
         
   
   
@@ -838,7 +721,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/context/" class="md-nav__link">
+      <a href="../context/" class="md-nav__link">
         
   
   
@@ -866,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/trigger-dialogue/" class="md-nav__link">
+      <a href="../trigger-dialogue/" class="md-nav__link">
         
   
   
@@ -894,7 +777,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/notification-support/" class="md-nav__link">
+      <a href="../notification-support/" class="md-nav__link">
         
   
   
@@ -926,8 +809,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -946,13 +831,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
@@ -973,7 +856,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -991,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/custom-theming/" class="md-nav__link">
+      <a href="../custom-theming/" class="md-nav__link">
         
   
   
@@ -1016,10 +899,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="guides/url-schemes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    URL Schemes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1035,6 +945,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#supported-url-format" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supported URL Format
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-the-url-scheme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Register the URL Scheme
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handle-the-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handle the URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#return-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Return Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1047,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/link-interception/" class="md-nav__link">
+      <a href="../link-interception/" class="md-nav__link">
         
   
   
@@ -1082,7 +1056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-reference/" class="md-nav__link">
+      <a href="../../api-reference/" class="md-nav__link">
         
   
   
@@ -1129,49 +1103,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#supported-url-format" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#step-1-add-the-jitpack-repository" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 1: Add the JitPack repository
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#step-2-add-the-dependency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Step 2: Add the dependency
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quick Start
+        Supported URL Format
       
     </span>
   </a>
@@ -1179,10 +1114,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
+  <a href="#register-the-url-scheme" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentation
+        Register the URL Scheme
       
     </span>
   </a>
@@ -1190,10 +1125,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#api-reference" class="md-nav__link">
+  <a href="#handle-the-url" class="md-nav__link">
     <span class="md-ellipsis">
       
-        API Reference
+        Handle the URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#return-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Return Value
       
     </span>
   </a>
@@ -1220,75 +1166,46 @@
   
 
 
-<h1 id="kindly-android-sdk">Kindly Android SDK<a class="headerlink" href="#kindly-android-sdk" title="Permanent link">&para;</a></h1>
-<p>The Kindly Chat SDK for Android allows you to integrate a fully-featured customer support chat into your Android application. The SDK provides a native Jetpack Compose chat interface with real-time messaging, push notifications, custom theming, and more.</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<h3 id="step-1-add-the-jitpack-repository">Step 1: Add the JitPack repository<a class="headerlink" href="#step-1-add-the-jitpack-repository" title="Permanent link">&para;</a></h3>
-<p>Add JitPack to your root <code>build.gradle</code> or <code>settings.gradle</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">// settings.gradle.kts</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">dependencyResolutionManagement</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="n">repositories</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="n">maven</span><span class="p">(</span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;https://jitpack.io&quot;</span><span class="p">)</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">}</span>
+<h1 id="url-schemes">URL Schemes<a class="headerlink" href="#url-schemes" title="Permanent link">&para;</a></h1>
+<p>The Kindly SDK supports deep linking via custom URL schemes. This allows your app to open the chat and trigger specific dialogues from external links.</p>
+<h2 id="supported-url-format">Supported URL Format<a class="headerlink" href="#supported-url-format" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>kindly://chat/dialogue/{dialogue_id}
 </code></pre></div>
-<h3 id="step-2-add-the-dependency">Step 2: Add the dependency<a class="headerlink" href="#step-2-add-the-dependency" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">dependencies</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="n">implementation</span><span class="p">(</span><span class="s">&quot;com.github.kindly-ai:sdk-chat-android:TAG&quot;</span><span class="p">)</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
+<p>When handled, the SDK will:
+- If already connected: trigger the dialogue immediately
+- If started but not connected: open the chat UI, connect, and trigger the dialogue
+- If not started: return <code>false</code> (you must call <code>start()</code> first)</p>
+<h2 id="register-the-url-scheme">Register the URL Scheme<a class="headerlink" href="#register-the-url-scheme" title="Permanent link">&para;</a></h2>
+<p>Add an intent filter to your Activity in <code>AndroidManifest.xml</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;activity</span><span class="w"> </span><span class="na">android:name=</span><span class="s">&quot;.MainActivity&quot;</span><span class="nt">&gt;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nt">&lt;intent-filter&gt;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">        </span><span class="nt">&lt;action</span><span class="w"> </span><span class="na">android:name=</span><span class="s">&quot;android.intent.action.VIEW&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="nt">&lt;category</span><span class="w"> </span><span class="na">android:name=</span><span class="s">&quot;android.intent.category.DEFAULT&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">        </span><span class="nt">&lt;category</span><span class="w"> </span><span class="na">android:name=</span><span class="s">&quot;android.intent.category.BROWSABLE&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">        </span><span class="nt">&lt;data</span><span class="w"> </span><span class="na">android:scheme=</span><span class="s">&quot;kindly&quot;</span><span class="w"> </span><span class="na">android:host=</span><span class="s">&quot;chat&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="nt">&lt;/intent-filter&gt;</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="nt">&lt;/activity&gt;</span>
 </code></pre></div>
-<p>Find the latest version on <a href="https://jitpack.io/#kindly-ai/sdk-chat-android">JitPack</a>.</p>
-<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Initialize in your Application class</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="na">start</span><span class="p">(</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="n">application</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">,</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="n">botKey</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;YOUR_BOT_KEY&quot;</span><span class="p">,</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="n">languageCode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;en&quot;</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="p">)</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">// Display the chat from any Activity/Fragment</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="na">launchChat</span><span class="p">(</span><span class="n">context</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">context</span><span class="p">)</span>
+<h2 id="handle-the-url">Handle the URL<a class="headerlink" href="#handle-the-url" title="Permanent link">&para;</a></h2>
+<p><strong>In your Activity:</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">override</span><span class="w"> </span><span class="kd">fun</span><span class="w"> </span><span class="nf">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">:</span><span class="w"> </span><span class="n">Bundle?)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="k">super</span><span class="p">.</span><span class="na">onCreate</span><span class="p">(</span><span class="n">savedInstanceState</span><span class="p">)</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="n">handleIntent</span><span class="p">(</span><span class="n">intent</span><span class="p">)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="kd">override</span><span class="w"> </span><span class="kd">fun</span><span class="w"> </span><span class="nf">onNewIntent</span><span class="p">(</span><span class="n">intent</span><span class="p">:</span><span class="w"> </span><span class="n">Intent</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="k">super</span><span class="p">.</span><span class="na">onNewIntent</span><span class="p">(</span><span class="n">intent</span><span class="p">)</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="n">handleIntent</span><span class="p">(</span><span class="n">intent</span><span class="p">)</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="kd">private</span><span class="w"> </span><span class="kd">fun</span><span class="w"> </span><span class="nf">handleIntent</span><span class="p">(</span><span class="n">intent</span><span class="p">:</span><span class="w"> </span><span class="n">Intent</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="n">intent</span><span class="p">.</span><span class="na">data</span><span class="o">?.</span><span class="na">let</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">uri</span><span class="w"> </span><span class="o">-&gt;</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">        </span><span class="n">KindlySDK</span><span class="p">.</span><span class="na">handleUrl</span><span class="p">(</span><span class="n">context</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">this</span><span class="p">,</span><span class="w"> </span><span class="n">uri</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">uri</span><span class="p">)</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="p">}</span>
 </code></pre></div>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
-<div class="grid cards">
-<ul>
-<li>
-<p><strong>Getting Started</strong></p>
-<hr />
-<p>Set up the SDK and configure it for your app</p>
-<p><a href="guides/initialization/">:octicons-arrow-right-24: Initialization</a>
-<a href="guides/config/">:octicons-arrow-right-24: Configuration</a></p>
-</li>
-<li>
-<p><strong>Chat Lifecycle</strong></p>
-<hr />
-<p>Control how the chat UI is displayed and managed</p>
-<p><a href="guides/launch-chat/">:octicons-arrow-right-24: Launch Chat</a>
-<a href="guides/close-chat/">:octicons-arrow-right-24: Close Chat</a>
-<a href="guides/end-chat/">:octicons-arrow-right-24: End Chat</a>
-<a href="guides/kill-sdk/">:octicons-arrow-right-24: Kill SDK</a></p>
-</li>
-<li>
-<p><strong>Features</strong></p>
-<hr />
-<p>Events, authentication, context, dialogues, and notifications</p>
-<p><a href="guides/events/">:octicons-arrow-right-24: Events</a>
-<a href="guides/authentication/">:octicons-arrow-right-24: Authentication</a>
-<a href="guides/notification-support/">:octicons-arrow-right-24: Notifications</a></p>
-</li>
-<li>
-<p><strong>Customization</strong></p>
-<hr />
-<p>Theme the chat UI, handle links, and set up deep linking</p>
-<p><a href="guides/custom-theming/">:octicons-arrow-right-24: Custom Theming</a>
-<a href="guides/url-schemes/">:octicons-arrow-right-24: URL Schemes</a>
-<a href="guides/link-interception/">:octicons-arrow-right-24: Link Interception</a></p>
-</li>
-</ul>
-</div>
-<h2 id="api-reference">API Reference<a class="headerlink" href="#api-reference" title="Permanent link">&para;</a></h2>
-<p>Auto-generated documentation for all public classes, interfaces, enums, and data classes.</p>
-<p><a class="md-button" href="api-reference/">:octicons-book-24: Browse API Reference</a></p>
+<h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
+<p><code>handleUrl()</code> returns <code>true</code> if the URL was recognized and handled by the SDK, <code>false</code> otherwise.</p>
 
 
 
@@ -1373,10 +1290,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

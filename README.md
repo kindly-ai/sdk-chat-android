@@ -107,10 +107,8 @@ fun MyButton() {
 
 If you encounter any issues or require further assistance, feel free to create an issue in this repository or contact Kindly's support team.
 
-## Additional Information
+## Documentation
 
-For more information, please refer to the following resources:
-
-- [Getting Started](https://github.com/kindly-ai/sdk-chat-android/wiki)
-- [📚 Documentation](https://kindly-ai.github.io/sdk-chat-android/)
+- [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-android/)
+- [API Reference](https://kindly-ai.github.io/sdk-chat-android/api-reference/)
 - [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-android)
