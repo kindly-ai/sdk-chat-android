@@ -109,6 +109,6 @@ If you encounter any issues or require further assistance, feel free to create a
 
 ## Documentation
 
-- [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-android/)
-- [API Reference](https://kindly-ai.github.io/sdk-chat-android/api-reference/)
+- [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-android-sources/)
+- [API Reference](https://kindly-ai.github.io/sdk-chat-android-sources/api-reference/)
 - [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-android)
