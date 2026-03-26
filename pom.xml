@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
-  <artifactId>chat-sdk</artifactId>
+  <artifactId>sdk</artifactId>
   <version>1.0.83</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
