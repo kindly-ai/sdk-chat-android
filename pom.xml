@@ -3,12 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>chat-sdk</artifactId>
-  <version>1.0.82</version>
+  <version>1.0.83</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
-  <description>Kindly pom file</description>
+  <description>Kindly Chat SDK for Android — customer support chat widget</description>
   <url>https://github.com/kindly-ai/chat-android.git</url>
   <inceptionYear>2023</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <id>AlexyIbrahim</id>
