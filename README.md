@@ -4,18 +4,37 @@ This is the official Kindly SDK for Android. This SDK allows you to integrate Ki
 
 ## Installation
 
-Follow these steps to install the Kindly SDK into your Android project.
+### Option A: Maven Central (Recommended)
 
-### Step 1: Add the JitPack repository to your build file
+No extra repository configuration needed — Maven Central is included by default in Android projects.
 
 #### Groovy
 
-Add the following lines to your root `build.gradle` file:
+```groovy
+dependencies {
+    implementation 'ai.kindly:sdk:TAG'
+}
+```
+
+#### Kotlin DSL
+
+```kotlin
+dependencies {
+    implementation("ai.kindly:sdk:TAG")
+}
+```
+
+Find the latest version on [Maven Central](https://central.sonatype.com/artifact/ai.kindly/sdk).
+
+### Option B: JitPack
+
+Add the JitPack repository to your build file:
+
+#### Groovy
 
 ```groovy
 allprojects {
     repositories {
-        ...
         maven { url "https://jitpack.io" }
     }
 }
@@ -24,21 +43,20 @@ allprojects {
 #### Kotlin DSL
 
 ```kotlin
-pluginManagement {
+dependencyResolutionManagement {
     repositories {
-        ...
         maven(url = "https://jitpack.io")
     }
 }
 ```
 
-### Step 2: Add the dependency
+Then add the dependency:
 
 #### Groovy
 
 ```groovy
 dependencies {
-	implementation "com.github.kindly-ai:sdk-chat-android:TAG"
+    implementation "com.github.kindly-ai:sdk-chat-android:TAG"
 }
 ```
 
@@ -46,11 +64,11 @@ dependencies {
 
 ```kotlin
 dependencies {
-	implementation("com.github.kindly-ai:sdk-chat-android:TAG")
+    implementation("com.github.kindly-ai:sdk-chat-android:TAG")
 }
 ```
 
-Find the latest version [here](https://jitpack.io/#kindly-ai/sdk-chat-android)
+Find the latest version on [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-android).
 
 ### Step 3: Initialize the SDK
 
