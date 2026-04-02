@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ai.kindly</groupId>
   <artifactId>sdk</artifactId>
-  <version>1.0.84</version>
+  <version>1.0.85</version>
   <packaging>aar</packaging>
   <name>Kindly SDK</name>
   <description>Kindly Chat SDK for Android — customer support chat widget</description>
@@ -23,9 +23,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git@github.com:kindly-ai/chat-android.git</connection>
-    <developerConnection>scm:git@github.com:kindly-ai/chat-android.git</developerConnection>
-    <url>git@github.com:kindly-ai/chat-android.git</url>
+    <connection>scm:git:https://github.com/kindly-ai/sdk-chat-android.git</connection>
+    <developerConnection>scm:git:ssh://github.com/kindly-ai/sdk-chat-android.git</developerConnection>
+    <url>https://github.com/kindly-ai/sdk-chat-android</url>
   </scm>
   <build>
     <plugins>
