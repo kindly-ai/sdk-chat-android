@@ -72,7 +72,7 @@ Find the latest version on [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-andr
 
 ### Step 3: Initialize the SDK
 
-In your Application class, initialize the SDK as follows:
+In your Application class, initialize the SDK as follows. The `market` slug is **required** — pass the market configured for your bot (find your slugs in the Kindly platform under Settings → General → Details & markets):
 
 ```kotlin
 class App: Application() {
@@ -84,10 +84,31 @@ class App: Application() {
             application = this,
             botKey = "BOT_KEY",
             languageCode = "en",
+            market = "YOUR_MARKET",
         )
     }
 }
 ```
+
+### Authentication (JWT)
+
+If your bot uses authenticated chat, pass an `authTokenProvider` — a `fun interface` with a single `suspend` function that returns a fresh JWT whenever the SDK needs one:
+
+```kotlin
+KindlySDK.start(
+    application = this,
+    botKey = "BOT_KEY",
+    languageCode = "en",
+    market = "YOUR_MARKET",
+    authTokenProvider = KindlyAuthTokenProvider { request ->
+        // Suspend code — mint a JWT for request.chatId on your backend.
+        // request.reason is INITIAL_CONNECT or EXPIRED.
+        fetchJwtFromBackend(request.chatId)
+    },
+)
+```
+
+> The previous `Deferred`-based `authTokenCallback` parameter is deprecated but still supported — existing integrations keep working unchanged. See the [Authentication guide](https://kindly-ai.github.io/sdk-chat-android-sources/guides/authentication/) for details and migration.
 
 ## Usage
 
