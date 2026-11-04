@@ -108,7 +108,7 @@ KindlySDK.start(
 )
 ```
 
-> The previous `Deferred`-based `authTokenCallback` parameter is deprecated but still supported — existing integrations keep working unchanged. See the [Authentication guide](https://kindly-ai.github.io/sdk-chat-android-sources/guides/authentication/) for details and migration.
+> The previous `Deferred`-based `authTokenCallback` parameter is deprecated but still supported — existing integrations keep working unchanged. See the [Authentication guide](https://docs.kindly.ai/sdk/android-sdk-authentication) for details and migration.
 
 ## Usage
 
@@ -148,6 +148,6 @@ If you encounter any issues or require further assistance, feel free to create a
 
 ## Documentation
 
-- [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-android-sources/)
-- [API Reference](https://kindly-ai.github.io/sdk-chat-android-sources/api-reference/)
+- [Getting Started & Guides](https://docs.kindly.ai/sdk/android-sdk)
+- [API Reference](https://docs.kindly.ai/sdk/android-sdk-api-reference)
 - [JitPack](https://jitpack.io/#kindly-ai/sdk-chat-android)
